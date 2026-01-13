@@ -65,9 +65,12 @@ eciwag = fred.get_series('ECIWAG', start='2015-01-01')
 
 #### Chart 1: The Illusion of Growth (1964-Present)
 Shows the divergence between nominal and real wages over 60 years, highlighting how inflation erodes purchasing power despite apparent wage growth.
+<img width="1352" height="673" alt="image" src="https://github.com/user-attachments/assets/870548c0-b295-456e-9a82-256613dcbc3c" />
+
 
 #### Chart 2: Composition Effect Analysis (2015-Present)
 Compares biased average wages (AHETPI) with composition-controlled wages (ECI), exposing the 2020 statistical artifact.
+<img width="1384" height="684" alt="image" src="https://github.com/user-attachments/assets/132f35c6-9846-4f1e-8c73-b8c2be27242d" />
 
 ### 🚀 How to Run
 
