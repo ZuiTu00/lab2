@@ -26,10 +26,14 @@ I visualized the 'Money Illusion'—showing flat real wages over 50 years. I als
 
 [Include your charts here - you can upload the chart images to your repo and reference them]
 
+# Phase 2: AI Expansion (Visualization)
 <img width="1388" height="698" alt="image" src="https://github.com/user-attachments/assets/d8b61bbf-9850-43eb-b69b-52db156feba8" />
 
+##Phase 2: AI Expansion (Visualization & Analysis)
+##Exercise 1: Visualizing the "Illusion"
 <img width="1352" height="673" alt="image" src="https://github.com/user-attachments/assets/7ccd41a9-307b-4c27-8d8f-e101e57de01c" />
 
+##Exercise 2: Solving the "Pandemic Paradox" (Advanced)
 <img width="1384" height="684" alt="image" src="https://github.com/user-attachments/assets/39aab4f6-7cc7-4d42-96ea-8b57a3b94ad9" />
 
 
