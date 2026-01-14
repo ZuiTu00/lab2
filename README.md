@@ -1,21 +1,30 @@
 # lab2
-# Fetched nominal wage data (AHETPI) and CPI data
-wages = fred.get_series('AHETPI', start='1964-01-01')
-cpi = fred.get_series('CPIAUCSL', start='1964-01-01')
+# Deflating History with FRED
 
-# Calculate inflation-adjusted real wages
-real_wages = (wages / cpi) * base_cpi
-# Employment Cost Index maintains fixed job composition
-eciwag = fred.get_series('ECIWAG', start='2015-01-01')
+## The Illusion of Growth & The Composition Effect
 
-# Rebased both series for direct comparison
-wages_rebased = (wages / wages.iloc[0]) * 100
-eci_rebased = (eciwag / eciwag.iloc[0]) * 100
-# Install dependencies
-pip install fredapi pandas matplotlib numpy
+### Objective
+I built a Python pipeline to ingest live economic data from the Federal Reserve API to analyze wage stagnation and correct for statistical biases.
 
-# Set FRED API key
-export FRED_API_KEY='your_key_here'
+### Tech Stack
+- Python
+- fredapi
+- pandas
+- matplotlib
 
-# Run analysis
-python wage_analysis.py
+### Methodology
+
+1. I fetched nominal wage data (AHETPI) and CPI data to calculate 'Real Wages.'
+2. I detected a statistical anomaly in 2020 (The Pandemic Spike).
+3. I fetched the Employment Cost Index (ECI) to control for the 'Composition Effect' and prove the spike was artificial.
+
+### Key Findings
+
+I visualized the 'Money Illusion'—showing flat real wages over 50 years. I also demonstrated that the 2020 wage boom was a statistical artifact caused by low-wage workers exiting the labor force, not a true increase in labor demand (the "Pandemic Paradox").
+
+### Visualizations
+
+[Include your charts here - you can upload the chart images to your repo and reference them]
+
+![Nominal vs Real Wages Chart](path/to/your/chart1.png)
+![Composition Effect Chart](path/to/your/chart2.png)
