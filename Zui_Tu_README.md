@@ -24,8 +24,6 @@ I visualized the 'Money Illusion'—showing flat real wages over 50 years. I als
 
 ### Visualizations
 
-[Include your charts here - you can upload the chart images to your repo and reference them]
-
 # Phase 2: AI Expansion (Visualization)
 <img width="1388" height="698" alt="image" src="https://github.com/user-attachments/assets/d8b61bbf-9850-43eb-b69b-52db156feba8" />
 
